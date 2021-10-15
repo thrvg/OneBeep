@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:id="@+id/onOffLabel"
+            android:layout_weight="1"
+            android:text="On/Off"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+
+            android:textColor="@color/white"/>
+        <ToggleButton
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_button"
+            android:textColor="@color/toggle_color"
+            android:textOff="Off"
+            android:textOn="On"
+            android:id="@+id/onOffToggle"
+            android:layout_gravity="center"
+            android:layout_weight="0.25"
+            />
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+<LinearLayout
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_button"
+        android:textColor="@color/toggle_color"
+        android:textOff="M"
+        android:textOn="M"
+        android:layout_marginRight="5dp"
+        android:id="@+id/repeatOnMon">
+
+    </ToggleButton>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_button"
+        android:textColor="@color/toggle_color"
+        android:textOff="T"
+        android:textOn="T"
+        android:layout_marginRight="5dp"
+        android:id="@+id/repeatOnTue">
+
+    </ToggleButton>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_button"
+        android:textColor="@color/toggle_color"
+        android:textOff="W"
+        android:textOn="W"
+        android:layout_marginRight="5dp"
+        android:id="@+id/repeatOnWed">
+
+    </ToggleButton>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_button"
+        android:textColor="@color/toggle_color"
+        android:textOff="T"
+        android:textOn="T"
+        android:layout_marginRight="5dp"
+        android:id="@+id/repeatOnThu">
+
+    </ToggleButton>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_button"
+        android:textColor="@color/toggle_color"
+        android:textOff="F"
+        android:textOn="F"
+        android:layout_marginRight="5dp"
+        android:id="@+id/repeatOnFri">
+
+    </ToggleButton>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_button"
+        android:textColor="@color/toggle_color"
+        android:textOff="S"
+        android:textOn="S"
+        android:layout_marginRight="5dp"
+        android:id="@+id/repeatOnSat">
+
+    </ToggleButton>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_button"
+        android:textColor="@color/toggle_color"
+        android:textOff="S"
+        android:textOn="S"
+        android:layout_marginRight="5dp"
+        android:id="@+id/repeatOnSun">
+
+    </ToggleButton>
+
+
+
+
+</LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:id="@+id/beepTwiceLabel"
+            android:layout_weight="1"
+            android:text="Beep once more after 5 min"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toggle_button"
+            android:textColor="@color/toggle_color"
+            android:textOff="No"
+            android:textOn="Yes"
+            android:id="@+id/beepTwiceToggle"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
